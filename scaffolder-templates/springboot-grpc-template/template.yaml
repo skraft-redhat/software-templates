@@ -75,6 +75,7 @@ spec:
       input:
         allowedHosts: ["github.com"]
         description: This is ${{ parameters.component_id }}
+        repoVisibility: public
         repoUrl: ${{ parameters.repoUrl }}
 
     - id: register
